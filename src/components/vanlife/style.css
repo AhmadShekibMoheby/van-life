@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 60px;
+  background-color: antiquewhite;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > a,
+nav > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > a {
+  font-size: 1.5rem;
+}
+
+.site-logo {
+  font-size: 2rem;
+}
+
+.home-content {
+  padding: 20px;
+  background-image: url("pic1.jpg");
+  background-position: center;
+}
+
+.content-title {
+  font-size: 4rem;
+  color: white;
+}
+
+.content-description {
+  font-size: 1.5em;
+  color: rgb(242, 237, 237);
+}
+
+.content-btn {
+  background-color: rgb(239, 1, 1);
+  border: none;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 4rem;
+  border-radius: 8px;
+}
+
+.about-content {
+  background-color: antiquewhite;
+}
+
+.about-img {
+  width: 100%;
+  height: 300px;
+}
+
+.about-box {
+  padding: 15px;
+}
+
+.order-div {
+  margin-top: 60px;
+  background-color: rgb(244, 185, 76);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.order-btn {
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer {
+  height: 50px;
+  background-color: rgb(64, 64, 64);
+  color: rgb(216, 213, 213);
+  text-align: center;
+  padding: 15px;
+}
